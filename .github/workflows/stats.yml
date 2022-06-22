@@ -1,0 +1,17 @@
+name: Pull Request Stats
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run pull request stats
+        uses: flowwer-dev/pull-request-stats@master
+        with:
+          organization: '010tech'
+          period: 7
+          charts: true
+          sort-by: 'REVIEWS'
