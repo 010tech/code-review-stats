@@ -13,6 +13,7 @@ jobs:
       - name: Run pull request stats
         uses: flowwer-dev/pull-request-stats@master
         with:
+          token: ${{ secrets.GH_TOKEN }}
           organization: '010tech'
           period: 7
           charts: true
