@@ -15,6 +15,6 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           organization: '010tech'
-          period: 7
+          period: 30
           charts: true
           sort-by: 'REVIEWS'
