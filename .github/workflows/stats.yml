@@ -18,3 +18,5 @@ jobs:
           period: 30
           charts: true
           sort-by: 'REVIEWS'
+          slack-webhook: 'https://hooks.slack.com/services/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'
+          slack-channel: '#code-review'
